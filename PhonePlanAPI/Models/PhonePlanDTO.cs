@@ -15,5 +15,19 @@
         public int IdOperator { get; set; }
 
         public List<int>? DDDs { get; set; }
+
+        public PhonePlan MapToPhonePlan()
+        {
+            return new PhonePlan
+            {
+                Id = Id,
+                Internet = Internet,
+                Minutes = Minutes,
+                Value = Value,
+                IdOperator = IdOperator,
+                IdPlanType = IdPlanType,
+                DDDs = DDDs?.Select(x => new PlanDDD { IdDDD = x, IdPhonePlan = Id }).ToList()
+            };
+        }
     }
 }

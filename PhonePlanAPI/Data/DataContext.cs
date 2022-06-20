@@ -43,7 +43,9 @@ namespace PhonePlanAPI.Data
                 );
 
             modelBuilder.Entity<PlanDDD>().HasData(
-               new PlanDDD { Id = 1, IdDDD = 011, IdPhonePlan = 1 }
+               new PlanDDD { Id = 1, IdDDD = 11, IdPhonePlan = 1 },
+               new PlanDDD { Id = 2, IdDDD = 41, IdPhonePlan = 1 },
+               new PlanDDD { Id = 3, IdDDD = 48, IdPhonePlan = 1 }
                );
         }
     }

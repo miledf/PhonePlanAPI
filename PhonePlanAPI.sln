@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhonePlanAPI", "PhonePlanAPI\PhonePlanAPI.csproj", "{420E603D-29FB-48D9-A42A-1E22255C16D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhonePlanAPI.Tests", "PhonePlanAPI.Tests\PhonePlanAPI.Tests.csproj", "{CEF009B7-5BB1-4524-9192-98CEBB0FD280}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{420E603D-29FB-48D9-A42A-1E22255C16D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{420E603D-29FB-48D9-A42A-1E22255C16D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{420E603D-29FB-48D9-A42A-1E22255C16D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF009B7-5BB1-4524-9192-98CEBB0FD280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF009B7-5BB1-4524-9192-98CEBB0FD280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF009B7-5BB1-4524-9192-98CEBB0FD280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF009B7-5BB1-4524-9192-98CEBB0FD280}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
